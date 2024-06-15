@@ -17,6 +17,7 @@
   ```bash
   for file in *.mp4; do ffmpeg -i "$file" "${file%.mp4}.gif"; done
   ```
+  なにが言いたいかというと、`gif`の品質を考慮していない、ということです。その辺りについては[動画GIF変換コードの19種比較検証](https://zenn.dev/ykesamaru/articles/98640cadf3e476)をご参照ください。
 
 ![元画像](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/example.png)
 元画像
