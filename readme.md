@@ -1,11 +1,20 @@
-# `kdenlive`の`Effects`の例
+# `kdenlive`の`Effects`のレンダリング例
 ## はじめに
-`kdenlive`はたいへん高機能なゆえに学習曲線の問題があります。
-また慣れてくると「決まったエフェクトしか使わない」という問題が生じます。
-ここでは一度腰を据えて、全エフェクトの例を記載し、整理したいと思います。
+`kdenlive`にはたいへん高機能な数多くのエフェクトが存在しますが、エフェクト名が特殊であったり数そのものが多いせいで敬遠されがちな印象です。
+また慣れてくると「決まったエフェクトしか使わない」という問題が生じます。（主にわたし）
+`kdenlive`には`KDE`の伝統なのか、しっかりしたドキュメントが存在します。この記事では可能な限り公式ドキュメントへのリンクを記述しました。
+しかしながら、オプション引数の説明はあるものの、肝心の「このエフェクトはどのようなレンダリング結果になるか」が記載してありません。
+ここでは一度腰を据えて、全エフェクトのレンダリング例を記載し、整理したいと思います。
 なおエフェクトにはオーディオと映像がありますが、この記事では映像のみを扱います。
 
-![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/example.png)
+## 注意事項
+- 膨大な数のエフェクトがあるため、随時追記を行います。ご了承ください。（このような追記スタイルが`Zenn`の記事執筆ポリシーに違反している場合、教えていただけると幸いです。その場合は後述の`GitHub`のリポジトリのみを公開いたします。）
+- 静止画に対してのレンダリング結果をGIF形式で表示します。そのため、素材が動画であることを前提としたエフェクト、例えばでノイズ系やモーションキャプチャーなどは（今の所）対象外とします。
+- 後述の「環境」にて検証環境を記述しています。簡単には`Ubuntu 22.04, Kdenlive 24.02.2 (Flatpak ver.)`にて行っています。`Windows`や`MacOS`での`kdenlive`では動作が異なる可能性があります。
+- 全てのレンダリング結果 (gif images) は`https://github.com/yKesamaru/kdenlive_effects_sample`から引っ張ってきています。表示が遅い場合は`github`の方を参照してください。
+
+![元画像](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/example.png)
+元画像
 
 ## 環境
 ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/2024-06-15-09-18-48.png)
