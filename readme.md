@@ -13,6 +13,10 @@
 - 後述の「環境」にて検証環境を記述しています。簡単には`Ubuntu 22.04, Kdenlive 24.02.2 (Flatpak ver.)`にて行っています。`Windows`や`MacOS`での`kdenlive`では動作が異なる可能性があります。各OSごとの対応表は[こちら](https://docs.kdenlive.org/en/effects_and_compositions/lists/video_effects_list.html)を参照してください。
   - ![](assets/2024-06-15-19-17-14.png)
 - 全てのレンダリング結果 (gif images) は[GitHubのリポジトリ](https://github.com/yKesamaru/kdenlive_effects_sample)から引っ張ってきています。表示が遅い場合はそちらを参照してください。
+- `mp4`から`gif`への変換は以下のコマンドラインを使用しました。
+  ```bash
+  for file in *.mp4; do ffmpeg -i "$file" "${file%.mp4}.gif"; done
+  ```
 
 ![元画像](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/example.png)
 元画像
@@ -203,19 +207,19 @@ System:
 
 
 - [rgbsplit0r](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/rgbsplit0r.html)
-  - ![](assets/rgbsplit0r.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/rgbsplit0r.gif)
 - [Roberts](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/roberts.html)
-  - ![](assets/Roberts.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Roberts.gif)
 - [Sigmoidal_Transfer](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/sigmoidal_transfer.html)
-  - ![](assets/.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/.gif)
 - [Sobel](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/sobel.html)
-  - ![](assets/Sigmoidal_Transfer.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Sigmoidal_Transfer.gif)
 - [Sobel_with_planes](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/sobel_planes.html)
-  - ![](assets/Sobel_with_planes.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Sobel_with_planes.gif)
 - [Soft_Glow](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/soft_glow.html)
-  - ![](assets/Soft_Glow.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Soft_Glow.gif)
 - [Threshold](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/threshold.html)
-  - ![](assets/Threshold.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Threshold.gif)
 - 
 - その他
   - `kdenlive`が強制終了されることが多いため、この項目は検証を中止。また、この項目の多くはドキュメント化されていない様子。
@@ -231,33 +235,50 @@ System:
 - 
 - ぼかしとシャープネス
   - [Average_Blur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/average_blur.html)
-  - ![](assets/Average_Blur.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Average_Blur.gif)
   - [Bilateral](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/bilateral.html)
-  - ![](assets/Bilateral.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Bilateral.gif)
   - [BoxBlur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/boxblur.html)
-  - ![](assets/BoxBlur.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/BoxBlur.gif)
   - [Contrast_Adaptive_Sharpen](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/contrast_adaptive_sharpen.html)
-  - ![](assets/Contrast_Adaptive_Sharpen.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Contrast_Adaptive_Sharpen.gif)
   - [DBlur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/dblur.html)
-  - ![](assets/DBlur.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/DBlur.gif)
   - [Gaussian_Blur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/gaussian_blur.html)
-  - ![](assets/Gaussian_Blur.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Gaussian_Blur.gif)
   - [Planes_Blur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/planes_blur.html)
-  - ![](assets/Planes_Blur.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Planes_Blur.gif)
   - [Shape_Adaptive_Blur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/shape_adaptive_blur.html)
-  - ![](assets/Shape_Adaptive_Blur.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Shape_Adaptive_Blur.gif)
   - [Sharp_unsharp](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/sharp_unsharp.html)
-  - ![](assets/Sharp_unsharp.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Sharp_unsharp.gif)
   - [Smartblur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/smartblur.html)
-  - ![](assets/Smartblur.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Smartblur.gif)
   - [Square_Blur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/square_blur.html)
-  - ![](assets/Square_Blur.gif)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Square_Blur.gif)
   - 
 - マスター上
 - モーション
-  - 
+  - Fade_in
+  - Fade_out
+  - Freeze
+  - [Glitch0r](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/motion/glitch0r.html)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Glitch0r.gif)
+  - Nervous
+  - [Vertigo](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/motion/vertigo.html)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Vertigo.gif)
 - ユーティリティ
 - 色と画像の補正
+  - 3_point_balance
+  - Apply_LUT
+  - [Bezier_curves](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/color_image_correction/bezier_curves.html)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Bezier_curves.gif)
+  - [Brightness](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/color_image_correction/brightness.html)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Brightness.gif)
+  - [Brightness_keyframable](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/color_image_correction/brightness_keyframable.html)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Brightness_keyframable.gif)
+  - [Bw0r](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/color_image_correction/bw0r.html)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Bw0r.gif)
 - 生成
 - 非推奨
 
