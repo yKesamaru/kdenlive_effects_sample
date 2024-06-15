@@ -11,7 +11,7 @@
 - 膨大な数のエフェクトがあるため、随時追記を行います。ご了承ください。（このような追記スタイルが`Zenn`の記事執筆ポリシーに違反している場合、教えていただけると幸いです。その場合は後述の`GitHub`のリポジトリのみを公開いたします。）
 - 静止画に対してのレンダリング結果をGIF形式で表示します。そのため、素材が動画であることを前提としたエフェクト、例えばでノイズ系やモーションキャプチャーなどは（今の所）対象外とします。
 - 後述の「環境」にて検証環境を記述しています。簡単には`Ubuntu 22.04, Kdenlive 24.02.2 (Flatpak ver.)`にて行っています。`Windows`や`MacOS`での`kdenlive`では動作が異なる可能性があります。各OSごとの対応表は[こちら](https://docs.kdenlive.org/en/effects_and_compositions/lists/video_effects_list.html)を参照してください。
-  - ![](assets/2024-06-15-19-17-14.png)
+  - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/2024-06-15-19-17-14.png)
 - 全てのレンダリング結果 (gif images) は[GitHubのリポジトリ](https://github.com/yKesamaru/kdenlive_effects_sample)から引っ張ってきています。表示が遅い場合はそちらを参照してください。
 - `mp4`から`gif`への変換は以下のコマンドラインを使用しました。
   ```bash
