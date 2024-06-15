@@ -136,25 +136,17 @@
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="both" producer="playlist4"/>
-  <track hide="both" producer="playlist5"/>
+  <track hide="audio" producer="playlist4"/>
+  <track hide="audio" producer="playlist5"/>
  </tractor>
  <playlist id="playlist6">
   <entry in="00:00:00.000" out="00:00:02.958" producer="producer2">
    <property name="kdenlive:id">4</property>
    <property name="kdenlive:activeeffect">-1</property>
    <filter id="filter6">
-    <property name="mlt_service">avfilter.rgbashift</property>
-    <property name="kdenlive_id">avfilter.rgbashift</property>
-    <property name="av.rh">-144</property>
-    <property name="av.rv">16</property>
-    <property name="av.gh">-37</property>
-    <property name="av.gv">0</property>
-    <property name="av.bh">-80</property>
-    <property name="av.bv">1</property>
-    <property name="av.ah">29</property>
-    <property name="av.av">95</property>
-    <property name="av.edge">wrap</property>
+    <property name="mlt_service">avfilter.ccrepack</property>
+    <property name="kdenlive_id">avfilter.ccrepack</property>
+    <property name="position">frame</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
@@ -186,14 +178,14 @@
   <property name="kdenlive:sequenceproperties.documentuuid">{cea3c285-0df1-4d94-beef-6461625920fb}</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.position">10</property>
+  <property name="kdenlive:sequenceproperties.position">42</property>
   <property name="kdenlive:sequenceproperties.scrollPos">0</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
   <property name="kdenlive:sequenceproperties.tracksCount">4</property>
   <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
   <property name="kdenlive:sequenceproperties.videoTarget">2</property>
   <property name="kdenlive:sequenceproperties.zonein">0</property>
-  <property name="kdenlive:sequenceproperties.zoneout">72</property>
+  <property name="kdenlive:sequenceproperties.zoneout">20</property>
   <property name="kdenlive:sequenceproperties.zoom">2</property>
   <property name="kdenlive:sequenceproperties.groups">[
 ]
@@ -242,14 +234,14 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <filter id="filter7">
+  <filter id="filter9">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
    <property name="mlt_service">volume</property>
    <property name="internal_added">237</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter8">
+  <filter id="filter10">
    <property name="channel">-1</property>
    <property name="mlt_service">panner</property>
    <property name="internal_added">237</property>
@@ -348,7 +340,7 @@
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">-1</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">RGBA_Shift.mp4</property>
+  <property name="kdenlive:docproperties.renderurl">Bigsh0t_eq_cap.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
   <property name="kdenlive:docproperties.uuid">{cea3c285-0df1-4d94-beef-6461625920fb}</property>
   <property name="kdenlive:docproperties.version">1.1</property>

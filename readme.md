@@ -218,10 +218,44 @@ System:
   - ![](assets/Threshold.gif)
 - 
 - その他
-- [Alpha_gradient_other]()
+  - `kdenlive`が強制終了されることが多いため、この項目は検証を中止。また、この項目の多くはドキュメント化されていない様子。
+  - [Alpha_gradient_other]()
+  - [Alpha_shapes_other]()
+  - Alphaextract
+  - [Backgroundkey](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/misc/backgroundkey.html#backgroundkey)
+  - Basic_Image_Converter
+  - [Bigsh0t_eq_cap]()
+  - Bigsh0t_eq_wrap
+  - Bwdif_cuda
+  - Ccrepack
+- 
 - ぼかしとシャープネス
+  - [Average_Blur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/average_blur.html)
+  - ![](assets/Average_Blur.gif)
+  - [Bilateral](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/bilateral.html)
+  - ![](assets/Bilateral.gif)
+  - [BoxBlur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/boxblur.html)
+  - ![](assets/BoxBlur.gif)
+  - [Contrast_Adaptive_Sharpen](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/contrast_adaptive_sharpen.html)
+  - ![](assets/Contrast_Adaptive_Sharpen.gif)
+  - [DBlur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/dblur.html)
+  - ![](assets/DBlur.gif)
+  - [Gaussian_Blur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/gaussian_blur.html)
+  - ![](assets/Gaussian_Blur.gif)
+  - [Planes_Blur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/planes_blur.html)
+  - ![](assets/Planes_Blur.gif)
+  - [Shape_Adaptive_Blur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/shape_adaptive_blur.html)
+  - ![](assets/Shape_Adaptive_Blur.gif)
+  - [Sharp_unsharp](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/sharp_unsharp.html)
+  - ![](assets/Sharp_unsharp.gif)
+  - [Smartblur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/smartblur.html)
+  - ![](assets/Smartblur.gif)
+  - [Square_Blur](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/blur_and_sharpen/square_blur.html)
+  - ![](assets/Square_Blur.gif)
+  - 
 - マスター上
 - モーション
+  - 
 - ユーティリティ
 - 色と画像の補正
 - 生成
