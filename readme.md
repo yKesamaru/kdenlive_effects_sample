@@ -10,8 +10,9 @@
 ## 注意事項
 - 膨大な数のエフェクトがあるため、随時追記を行います。ご了承ください。（このような追記スタイルが`Zenn`の記事執筆ポリシーに違反している場合、教えていただけると幸いです。その場合は後述の`GitHub`のリポジトリのみを公開いたします。）
 - 静止画に対してのレンダリング結果をGIF形式で表示します。そのため、素材が動画であることを前提としたエフェクト、例えばでノイズ系やモーションキャプチャーなどは（今の所）対象外とします。
-- 後述の「環境」にて検証環境を記述しています。簡単には`Ubuntu 22.04, Kdenlive 24.02.2 (Flatpak ver.)`にて行っています。`Windows`や`MacOS`での`kdenlive`では動作が異なる可能性があります。
-- 全てのレンダリング結果 (gif images) は`https://github.com/yKesamaru/kdenlive_effects_sample`から引っ張ってきています。表示が遅い場合は`github`の方を参照してください。
+- 後述の「環境」にて検証環境を記述しています。簡単には`Ubuntu 22.04, Kdenlive 24.02.2 (Flatpak ver.)`にて行っています。`Windows`や`MacOS`での`kdenlive`では動作が異なる可能性があります。各OSごとの対応表は[こちら](https://docs.kdenlive.org/en/effects_and_compositions/lists/video_effects_list.html)を参照してください。
+  - ![](assets/2024-06-15-19-17-14.png)
+- 全てのレンダリング結果 (gif images) は[GitHubのリポジトリ](https://github.com/yKesamaru/kdenlive_effects_sample)から引っ張ってきています。表示が遅い場合はそちらを参照してください。
 
 ![元画像](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/example.png)
 元画像
@@ -199,7 +200,25 @@ System:
   - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Primaries.gif)
 - [RGBA_Shift](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/rgba_shift.html)
   - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/RGBA_Shift.gif)
+
+
+- [rgbsplit0r](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/rgbsplit0r.html)
+  - ![](assets/rgbsplit0r.gif)
+- [Roberts](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/roberts.html)
+  - ![](assets/Roberts.gif)
+- [Sigmoidal_Transfer](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/sigmoidal_transfer.html)
+  - ![](assets/.gif)
+- [Sobel](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/sobel.html)
+  - ![](assets/Sigmoidal_Transfer.gif)
+- [Sobel_with_planes](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/sobel_planes.html)
+  - ![](assets/Sobel_with_planes.gif)
+- [Soft_Glow](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/soft_glow.html)
+  - ![](assets/Soft_Glow.gif)
+- [Threshold](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/stylize/threshold.html)
+  - ![](assets/Threshold.gif)
+- 
 - その他
+- [Alpha_gradient_other]()
 - ぼかしとシャープネス
 - マスター上
 - モーション
