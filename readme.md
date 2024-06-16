@@ -3,7 +3,13 @@
 `kdenlive`にはたいへん高機能な数多くのエフェクトが存在しますが、エフェクト名が特殊であったり数そのものが多いせいで敬遠されがちな印象です。
 また慣れてくると「決まったエフェクトしか使わない」という問題が生じます。（主にわたし）
 `kdenlive`には`KDE`の伝統なのか、しっかりしたドキュメントが存在します。この記事では可能な限り公式ドキュメントへのリンクを記述しました。
-しかしながら、オプション引数の説明はあるものの、肝心の「このエフェクトはどのようなレンダリング結果になるか」が記載してありません。
+しかしながら、オプション引数の説明はあるものの、肝心の「このエフェクトはどのようなレンダリング結果になるか」が明瞭ではありません。
+一応YouTubeのリンクが貼ってありますが`kdenlive`のバージョンが`0.7.5`、2009年にアップロードされている等、非常に古いデモになっています。
+[Effects Demos](https://docs.kdenlive.org/en/effects_and_compositions.html#effects-demos)
+    - https://youtu.be/C6oeu2Yc64I
+    - https://youtu.be/jrC4F_G64jAg
+    - https://youtu.be/XMoSgHHbA4k
+
 ここでは一度腰を据えて、全エフェクトのレンダリング例を記載し、整理したいと思います。
 なおエフェクトにはオーディオと映像がありますが、この記事では映像のみを扱います。
 
@@ -281,6 +287,36 @@ System:
   - [Bw0r](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/color_image_correction/bw0r.html)
   - ![](https://raw.githubusercontent.com/yKesamaru/kdenlive_effects_sample/master/assets/Bw0r.gif)
 - 生成
+  - [Cairogradient](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/generate/cairogradient.html)
+    - ![](assets/Cairogradient.gif)
+  - [Draw_Box](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/generate/drawbox.html)
+    - ![](assets/Draw_Box.gif)
+  - [Draw_Grid](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/generate/drawgrid.html)
+    - ![](assets/Draw_Grid.gif)
+  - [Dynamic_Text](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/generate/dynamic_text.html)
+    - ![](assets/Dynamic_Text.gif)
+  - GPS_Text
+  - [scanline0r](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/generate/scanline0r.html)
+    - ![](assets/scanline0r.gif)
+  - [Timer](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/generate/timer.html)
+    - ![](assets/Timer.gif)
+  - [Video_grid](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/generate/video_grid.html)
+    - ![](assets/Video_grid.gif)
+  - [Vignette](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/generate/vignette.html)
+    - ![](assets/Vignette.gif)
+  - [Vignette_Effect](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/generate/vignette_effect.html)
+    - ![](assets/Vignette_Effect.gif)
 - 非推奨
+  - [Wave](https://docs.kdenlive.org/en/effects_and_compositions/video_effects/deprecated/wave.html)
+    - ![](assets/Wave.gif)
 
 
+## 最後に
+映像系エフェクトは全てリストアップできました。
+このようなデモ一覧がわたしの観測圏内では存在しませんでしたので作成した次第です。
+
+`kdenlive`は最近色味の機能にも力を入れているような印象を受けます。`DaVinci Resolve`の影響かもしれません。ここからはわたしの感想なのですが、`kdenlive`の立ち位置としてはオーディオソフトの`Ardour`と同じ感じだと思います。本格的にコンポジット処理を行いたい場合は`DaVinci Resolve`を選択肢たほうが良いのでしょう。ただ`DaVinci Resolve`はLINUX版もありますが、どちらかというと`Mac`を使ってる人向けに開発しているような感じがします。
+
+せっかく`kdenlive`が色味に力を入れているのでそちらも一度腰を据えて調べてみたいと思っていますが、いかんせん専門知識が必要な領域ですので及び腰です。
+
+以上です。ありがとうございました。
