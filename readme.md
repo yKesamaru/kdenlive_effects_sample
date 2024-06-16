@@ -1,5 +1,7 @@
 # `kdenlive`の`Effects`のレンダリング一覧: List of kdenlive Effect Rendering Demos
 
+更新：2024年6月16日
+
 ## はじめに
 Here are the rendering demos for all kdenlive effects.
 
