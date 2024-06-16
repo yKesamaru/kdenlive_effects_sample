@@ -144,9 +144,8 @@
    <property name="kdenlive:id">4</property>
    <property name="kdenlive:activeeffect">-1</property>
    <filter id="filter6">
-    <property name="version">0.9</property>
-    <property name="mlt_service">frei0r.bw0r</property>
-    <property name="kdenlive_id">frei0r.bw0r</property>
+    <property name="mlt_service">avfilter.hflip</property>
+    <property name="kdenlive_id">avfilter.hflip</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
@@ -161,6 +160,9 @@
   <track hide="audio" producer="playlist6"/>
   <track hide="audio" producer="playlist7"/>
  </tractor>
+ <playlist id="playlist8">
+  <property name="kdenlive:playlistid">timeline_preview</property>
+ </playlist>
  <tractor id="tractor4" in="00:00:00.000" out="00:00:02.958">
   <property name="kdenlive:duration">00:00:03.000</property>
   <property name="kdenlive:maxduration">72</property>
@@ -178,10 +180,10 @@
   <property name="kdenlive:sequenceproperties.documentuuid">{cea3c285-0df1-4d94-beef-6461625920fb}</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
-  <property name="kdenlive:sequenceproperties.position">71</property>
+  <property name="kdenlive:sequenceproperties.position">19</property>
   <property name="kdenlive:sequenceproperties.scrollPos">0</property>
   <property name="kdenlive:sequenceproperties.tracks">4</property>
-  <property name="kdenlive:sequenceproperties.tracksCount">4</property>
+  <property name="kdenlive:sequenceproperties.tracksCount">3</property>
   <property name="kdenlive:sequenceproperties.verticalzoom">1</property>
   <property name="kdenlive:sequenceproperties.videoTarget">2</property>
   <property name="kdenlive:sequenceproperties.zonein">0</property>
@@ -193,11 +195,14 @@
   <property name="kdenlive:sequenceproperties.guides">[
 ]
 </property>
+  <property name="kdenlive:sequenceproperties.previewchunks"/>
+  <property name="kdenlive:sequenceproperties.dirtypreviewchunks">0-50</property>
   <track producer="producer0"/>
   <track producer="tractor0"/>
   <track producer="tractor1"/>
   <track producer="tractor2"/>
   <track producer="tractor3"/>
+  <track hide="both" producer="playlist8"/>
   <transition id="transition0">
    <property name="a_track">0</property>
    <property name="b_track">1</property>
@@ -314,8 +319,8 @@
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">24.02.2</property>
   <property name="kdenlive:docproperties.opensequences">{cea3c285-0df1-4d94-beef-6461625920fb}</property>
-  <property name="kdenlive:docproperties.previewextension"/>
-  <property name="kdenlive:docproperties.previewparameters"/>
+  <property name="kdenlive:docproperties.previewextension">mkv</property>
+  <property name="kdenlive:docproperties.previewparameters">c:v=h264_nvenc g=0 preset=fast qmin=10 qmax=30</property>
   <property name="kdenlive:docproperties.profile">/home/terms/.var/app/org.kde.kdenlive/data/kdenlive/profiles/customprofile0</property>
   <property name="kdenlive:docproperties.proxyextension"/>
   <property name="kdenlive:docproperties.proxyimageminsize">2000</property>
@@ -340,7 +345,7 @@
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">-1</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">Bw0r.mp4</property>
+  <property name="kdenlive:docproperties.renderurl">Wave.mp4</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
   <property name="kdenlive:docproperties.uuid">{cea3c285-0df1-4d94-beef-6461625920fb}</property>
   <property name="kdenlive:docproperties.version">1.1</property>
